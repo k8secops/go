@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: go-catalog
-          image: k8secops/go:go-main-0000019f-20260628-063206 # {"$imagepolicy": "flux-system:demo-go"}
+          image: index.docker.io/k8secops/go:go-main-0000019f-20260628-063206 # {"$imagepolicy": "flux-system:demo-go"}
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
